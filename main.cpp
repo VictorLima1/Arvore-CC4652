@@ -11,6 +11,9 @@ int main(){
     a.insere(5);
     
 	a.erd();
+
+    cout << "BUSCAAAAAAAAAA" << endl;
+    cout << a.busca(5)->getValor() <<endl;
 	
 	return 0;
 }
